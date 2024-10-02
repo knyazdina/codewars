@@ -1,8 +1,3 @@
-function updateLight(current) {
-    if (current === 'green')
-    { return 'yellow';
-    } else if (current === 'yellow')
-    { return 'red'; } else if (current === 'red')
-    { return 'green'; } else { return 'Invalid state';
-    }
+function sumOfPositives(arr) {
+    return arr.reduce((sum, num) => num > 0 ? sum + num : sum, 0);
 }
